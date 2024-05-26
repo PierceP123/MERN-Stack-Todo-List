@@ -1,0 +1,111 @@
+.content-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.add-content textarea {
+    height: 80px;
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    padding: 7px; 
+}
+
+.add-content input:not([type="submit"]),
+.add-content textarea {
+    margin-bottom: 15px; 
+}
+
+.add-content button {
+    padding: 8px 12px; 
+    margin: 0; 
+    cursor: pointer;
+    border: 1px solid #000000; 
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white; 
+}
+
+.add-content button:hover {
+    background-color: #0056b3; 
+}
+
+.add-content {
+    width: 50%; 
+    padding: 20px;
+}
+
+.add-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-container {
+    width: 95%; 
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #000000; 
+}
+
+.table th, .table td {
+    border: 1px solid #000000; 
+    padding: 7px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.button-container {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 1px;
+    color: white;
+}
+
+.button-container button {
+    padding: 7px;
+    margin: 0 5px; 
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 50%; 
+    color: white; 
+}
+
+.button-container button.update {
+    background-color: #28a745; 
+}
+
+.button-container button.delete {
+    background-color: #ff0000; 
+}
+
+.button-container button.circle {
+    background-color: white; 
+    color: #000000; 
+}
+
+.button-container button.update:hover {
+    background-color: #218838; 
+}
+
+.button-container button.delete:hover {
+    background-color: #dc3545; 
+}
+
+.button-container button.circle:hover {
+    background-color: #f2f2f2; 
+    color: #000000; 
+}
