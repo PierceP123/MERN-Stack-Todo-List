@@ -2,6 +2,10 @@
 
 This project is a simple Todo List application built using the MERN stack (MongoDB, Express, React, Node.js). It covers all CRUD (Create, Read, Update, Delete) capabilities and includes a feature to mark tasks as complete without deleting them from the database. The application displays a form on the left to add or update tasks and a list of tasks on the right fetched from the database.
 
+![Screenshot 2024-05-26 182549](https://github.com/PierceP123/MERN-Stack-Todo-List/assets/108479412/b9be3ff8-8705-48e9-a1af-5aadd58ed489)
+![Screenshot 2024-05-26 182611](https://github.com/PierceP123/MERN-Stack-Todo-List/assets/108479412/10c87325-1223-49da-b38f-8ece28efe3b3)
+
+
 ## Features
 
 - **Create:** Add new tasks to the database.
@@ -28,7 +32,7 @@ cd frontend
 npm start
 
 
-## Future Enhancements
+## Future Updates
 
 This project was created to practice working with APIs and full stack development using MERN stack.
 Basic styling and React elements are used in this project.
